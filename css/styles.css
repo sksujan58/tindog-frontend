@@ -1,0 +1,249 @@
+#title{
+    background-color: #ff4c68;
+     /* height: 700px;  */
+    color: white;
+    /* overflow: hidden;  */
+}
+
+
+body{
+    font-family:"Montserrat" ;
+}
+h1{
+    font-family: 'Montserrat, sans-serif';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    line-height: 1.5;
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+
+.download_btn2{
+    margin-left: 2px;
+    margin-top: 20px;
+}
+.download_btn1{
+    
+    margin-top: 20px;
+    margin-right: 7px;
+}
+
+.phone_img{
+    padding-top: 30px;
+    margin-left: 55px;
+     transform: rotate(30deg); 
+    width:60%;
+    position: absolute;
+   
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navigation-bar-style{
+    color: white;
+}
+.navigation-bar-style:hover{
+    color: white;
+}
+
+.nav-hover-custom:hover{
+    color:#d12640 ;
+}
+
+
+
+/* Features */
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.second_container{
+    padding: 100px 0 100px 0;
+    background-color: white;
+   
+}
+
+.second_one{
+    text-align: center;
+    padding:10px 30px;
+}
+.second_two{
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.second_three{
+    text-align: center;
+    padding:10px 30px;
+}
+  
+h3{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.feature-heading{
+    padding-top: 10px;
+}
+
+.feature-para{
+    color: #8f8f8f;
+}
+
+.feature-icon{
+    color: #ef8172;
+
+     
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+
+
+/* testimonial */
+
+.third-container{
+    padding: 100px 0 100px 0;
+    text-align: center;
+    color: white;
+    
+}
+
+#testimonials{
+    background-color: #ef8172;
+    
+}
+
+.testimonial-img{
+    width: 150px;
+    border-radius: 80px;
+    margin-top: 10px;
+}
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+}
+
+
+.press-logo{
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.third{
+    padding: 5% 10%;
+}
+
+
+
+/* PRICING */
+
+.fourth_heading{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.price-box{
+   margin: 20px 0;
+}
+
+.card-title , .card-price ,.card-text{
+    text-align: center;
+}
+
+.card-button{
+   text-align: center;
+}
+
+
+
+/* last slice */
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ff4c68 ;
+}
+
+.last_section_custom{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.last_section_custom_button1{
+    margin: 5px 10px;
+    
+}
+
+.last_section_custom_button2{
+    margin: 5px 10px;
+}
+
+
+/* founder */
+
+.founder{
+    padding-top: 80px;
+    text-align: center;
+    background-color: wheat;
+    padding-bottom: 50px;
+}
+.my_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+/* footer */
+#footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon{
+    padding: 10px 8px;
+    
+}
+.icon-link{
+    color: rgb(79, 78, 78);
+}
+
+
+@media (max-width:1024px){
+
+    .phone_img{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .container-fluid{
+        text-align: center
+    }
+
+}
+
+@media (max-width:990px){
+    .phone_img{
+        width: 40%;
+    }
+}
